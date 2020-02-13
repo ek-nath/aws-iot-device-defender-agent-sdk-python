@@ -11,7 +11,8 @@ setup(name='AWSIoTDeviceDefenderAgentSDK',
       install_requires=[
           'psutil',
           'cbor',
-          'AWSIoTPythonSDK'
+          'boto3',
+          'requests'
       ],
       classifiers=[
           'Development Status :: 5 - Production/Stable',
