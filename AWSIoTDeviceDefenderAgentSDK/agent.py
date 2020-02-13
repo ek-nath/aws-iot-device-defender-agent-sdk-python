@@ -74,7 +74,7 @@ def get_client_id():
 
 def get_cp_endpoint_url(domain, region):
     if domain == "prod":
-        return "https://." + region + ".iot.amazonaws.com"
+        return "https://" + region + ".iot.amazonaws.com"
     else:
         return "https://" + domain + "." + region + ".iot.amazonaws.com"
 
