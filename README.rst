@@ -50,7 +50,6 @@ Installation
 
    git clone https://github.com/ek-nath/aws-iot-device-defender-agent-sdk-python.git
    cd aws-iot-device-defender-agent-sdk-python
-   pip install -r requirements.txt
    pip install .
 
 Running the Sample Agent
