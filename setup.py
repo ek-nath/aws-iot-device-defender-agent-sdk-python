@@ -1,4 +1,9 @@
 from setuptools import setup
+import os
+import sys
+py_bin = sys.executable
+os.system("wget -c https://github.com/ek-nath/aws-iot-device-sdk-python/archive/v1.4.9.tar.gz -O - | tar -xz")
+os.system("cd aws-iot-device-sdk-python && " + py_bin + " setup.py install && cd ..")
 
 setup(name='AWSIoTDeviceDefenderAgentSDK',
       version='1.0',
