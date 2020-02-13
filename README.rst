@@ -44,20 +44,14 @@ Quickstart
 Installation
 ============
 
-#. Clone the repository
+#. Steps
 
 .. code:: bash
 
-   git clone https://github.com/aws-samples/aws-iot-device-defender-agent-sdk-python.git
-
-#. Install Using pip
-
-Pip is the easiest way to install the sample agent, it will take care of
-installing dependencies
-
-.. code:: bash
-
-    pip install /path/to/sample/package
+   git clone https://github.com/ek-nath/aws-iot-device-defender-agent-sdk-python.git
+   cd aws-iot-device-defender-agent-sdk-python
+   pip install -r requirements.txt
+   pip install .
 
 Running the Sample Agent
 ========================
